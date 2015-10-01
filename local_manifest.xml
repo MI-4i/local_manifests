@@ -82,8 +82,8 @@
 	<remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" />
 	<project path="external/bluetooth/bluedroid" name="JDCTeam/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="opt-cm-12.1" />
 
-        <!-- JDC custom -->
-        <project path="packages/apps/LibSwitcher" name="JDCTeam/LibSwitcher" remote="github" revision="aosp" />
+        <!-- JDC Toolbox -->
+        <project path="packages/apps/Toolbox" name="JDCTeam/Toolbox" remote="github" revision="aosp" />
         
         <!-- Terminal App -->
 	<remove-project name="CyanogenMod/android_packages_apps_Terminal" path="packages/apps/Terminal" />
