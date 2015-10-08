@@ -90,10 +90,6 @@
 
         <!-- JDC Toolbox -->
         <project path="packages/apps/Toolbox" name="JDCTeam/Toolbox" remote="github" revision="aosp" />
-        
-        <!-- Terminal App -->
-	<remove-project name="CyanogenMod/android_packages_apps_Terminal" path="packages/apps/Terminal" />
-        <project path="packages/apps/Terminal" name="JDCTeam/android_packages_apps_Terminal" remote="github" revision="opt-cm-12.1" />
 
         <!-- Our UBER enhanced toolchains -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
