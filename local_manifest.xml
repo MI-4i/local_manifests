@@ -92,9 +92,6 @@
 	<remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" />
 	<project path="external/bluetooth/bluedroid" name="JDCTeam/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="opt-cm-12.1" />
 
-        <!-- JDC Toolbox -->
-        <project path="packages/apps/Toolbox" name="JDCTeam/Toolbox" remote="github" revision="aosp" />
-
         <!-- Our UBER enhanced toolchains -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
