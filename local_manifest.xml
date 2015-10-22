@@ -101,5 +101,9 @@
 
         <!-- Our libpng from aosp -->
         <remove-project name="CyanogenMod/android_external_libpng" path="external/libpng" />
-        <project path="external/libpng" name="AOSP-JF/platform_external_libpng" groups="pdk" remote="github" revision="aosp-5.1" />        
+        <project path="external/libpng" name="AOSP-JF/platform_external_libpng" groups="pdk" remote="github" revision="aosp-5.1" />  
+        
+        <!-- Enhanced and updated jemalloc -->
+        <remove-project name="CyanogenMod/android_external_jemalloc" path="external/jemalloc" />
+        <project path="external/jemalloc" name="arter97/android_external_jemalloc" groups="pdk" remote="github" revision="android-5.1" />
 </manifest>
