@@ -50,10 +50,10 @@
 	<project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-12.1" />
 
 	<!--STweaks-->
-	<project path="packages/apps/STweaks" name="AOSP-JF/STweaks" remote="github" revision="aosp-5.1" />
+	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="aosp" />
 
 	<!--OTA Updates-->
-	<project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="aosp" />
+	<project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
 
 	<!--Proprietary vendor blobs-->
 	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-unified-12.1" />
