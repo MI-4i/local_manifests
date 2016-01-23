@@ -28,6 +28,8 @@
 
 	<!--Packages-->
 	<remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<remove-project name="CyanogenMod/android_packages_apps_Camera2" path="packages/apps/Camera2" />
+	<project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-12.1" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-12.1" />
 
 	<!--Prebuilt WebView-->
