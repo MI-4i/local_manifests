@@ -34,6 +34,7 @@
 	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remove="github" revision="opt-cm-12.1" />
 	<project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-12.1" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-12.1" />
+	<project path="packages/apps/KernelAdiutor" name="JDCTeam/KernelAdiutor" remote="github" revision="opt-cm-12.1" >
 	
 	<!--Prebuilt WebView-->
 	<remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
@@ -108,4 +109,6 @@
         <!-- Enhanced and updated jemalloc -->
         <remove-project name="platform/external/jemalloc" path="external/jemalloc" />
         <project path="external/jemalloc" name="arter97/android_external_jemalloc" groups="pdk" remote="github" revision="android-5.1" />
+        
+       
 </manifest>
