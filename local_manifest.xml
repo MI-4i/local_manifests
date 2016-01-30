@@ -34,7 +34,6 @@
 	<project path="packages/apps/Trebuchet" name="JDCTeam/android_packages_apps_Trebuchet" remove="github" revision="opt-cm-12.1" />
 	<project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-12.1" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-12.1" />
-	<project path="packages/apps/KernelAdiutor" name="JDCTeam/android_packages_apps_KernelAdiutor" remote="github" revision="master" />
 	
 	<!--Prebuilt WebView-->
 	<remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
@@ -55,7 +54,7 @@
 	<project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-12.1" />
 
 	<!--STweaks-->
-	<!--<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="aosp" />-->
+	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="aosp" />
 
 	<!--OTA Updates-->
 	<project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
@@ -73,10 +72,10 @@
 	</project>
 
 	<!-- Alucard24 Kernel -->
-<!--	<project path="kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-5.1" /> -->
-	<!--<remove-project name="Alucard24/Alucard-Kernel-jfltexx" path="kernel/samsung/alucard24" />-->
-	<!--<remove-project name="Alucard24/Ramdisk" path="kernel/samsung/Ramdisk" />-->
-<!--	<project path="kernel/samsung/Ramdisk" name="Alucard24/Ramdisk" remote="github" revision="aospv2-5.1" /> -->
+	<project path="kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-5.1" />
+	<remove-project name="Alucard24/Alucard-Kernel-jfltexx" path="kernel/samsung/alucard24" />
+	<remove-project name="Alucard24/Ramdisk" path="kernel/samsung/Ramdisk" />
+	<project path="kernel/samsung/Ramdisk" name="Alucard24/Ramdisk" remote="github" revision="aospv2-5.1" />
 
 	<!-- Linaro 4.9.4 -->
 	<project path="kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
