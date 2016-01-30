@@ -73,8 +73,6 @@
 
 	<!-- Alucard24 Kernel -->
 	<project path="kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-5.1" />
-	<remove-project name="Alucard24/Alucard-Kernel-jfltexx" path="kernel/samsung/alucard24" />
-	<remove-project name="Alucard24/Ramdisk" path="kernel/samsung/Ramdisk" />
 	<project path="kernel/samsung/Ramdisk" name="Alucard24/Ramdisk" remote="github" revision="aospv2-5.1" />
 
 	<!-- Linaro 4.9.4 -->
