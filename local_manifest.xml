@@ -34,7 +34,7 @@
 	<!-- Packages -->
 	<remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
 	<remove-project name="CyanogenMod/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
-	<project path="vendor/google" name="MI-4i/platform_vendor_google" remote="github" revision="mm-6.0-mr1" />
+	<project path="vendor/google" name="MI-4i/platform_vendor_google" clone-depth="1" remote="github" revision="mm-6.0-mr1" />
 	<project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" remote="github" revision="aosp" />
 	<project path="packages/apps/Settings" name="JDCTeam/android_packages_apps_Settings" remote="github" revision="opt-cm-13.0" />
 	<project path="packages/apps/SetupWizard" name="JDCTeam/android_packages_apps_SetupWizard" remote="github" revision="opt-cm-13.0" />
