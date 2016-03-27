@@ -22,31 +22,12 @@
 
 	<!-- Device tree -->
 	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
-	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="github" revision="opt-cm-13.0" />
-	<project path="device/samsung/jf-common" name="JDCTeam/android_device_samsung_jf-common" remote="github" revision="opt-cm-13.0-test" />
-	<project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+	<project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" remote="github" revision="cm-13.0" />
+        <project path="kernel/xiaomi/ferrari" name="MI-4i/android_kernel_xiaomi_ferrari" remote="github" revision="cm-13.0" />
 
 	<!-- Framework -->
 	<remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-13.0" />
-
-        <!-- GCC -->
-	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-androideabi-4.9-UBER" />
-
-	<!--Hardware-->
-	<remove-project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="cm-13.0-caf-8960" />
-	<project path="hardware/qcom/display-caf/msm8960" name="JDCTeam/android_hardware_qcom_display" revision="opt-6.0-caf-8960" />
-	<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
-
-	<!-- Kernel (Alucard) -->
-	<project path="kernel/cr-arm-eabi-4.9.4" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="github" revision="master" />
-	<project path="kernel/samsung/alucard24" name="Alucard24/Alucard-Kernel-jfltexx" remote="github" revision="my-aospv2-6.0" />
-	<project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="alu-cm-13" />
-
-	<!-- Kernel (base) -->
-	<project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-13.0" />
 
 	<!-- Packages -->
 	<remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
@@ -57,7 +38,7 @@
 	<project path="packages/apps/STweaks" name="JDCTeam/STweaks" remote="github" revision="aosp" />
 
 	<!--Proprietary vendor blobs-->
-	<project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-6.0-newril" />
+	<project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" remote="github" revision="cm-13.0" />
 	
 	<!-- Telephony for unified variants -->
 	<remove-project name="CyanogenMod/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
