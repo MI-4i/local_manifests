@@ -29,7 +29,7 @@
 	<remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
 	<remove-project name="CyanogenMod/android_frameworks_native" path="frameworks/native" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-13.0" />
-	<project path="frameworks/base" name="MI-4i/android_frameworks_native" remote="github" revision="cm-13.0" />
+	<project path="frameworks/native" name="MI-4i/android_frameworks_native" remote="github" revision="cm-13.0" />
 
 	<!-- Packages -->
 	<remove-project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" />
