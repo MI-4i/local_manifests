@@ -26,7 +26,7 @@
         <project path="kernel/xiaomi/ferrari" name="MI-4i/android_kernel_xiaomi_ferrari" remote="github" revision="cm-13.0" />
 
 	<!-- Framework -->
-	<remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/av" />
+	<remove-project name="CyanogenMod/android_frameworks_av" path="frameworks/av" />
 	<remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
 	<remove-project name="CyanogenMod/android_frameworks_native" path="frameworks/native" />
 	<project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-13.0" />
